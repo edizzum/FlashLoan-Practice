@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
         function takeFlashLoan(uint256 borrowAmount) external;
     }
 
-contract TahirsChallange {
+contract FlashLoanChallange {
 
     address richGetRicher = 0xF718da03a3C6E7d6BbDD5B250434BBf25bBF26E6; 
     address payable fLoan = payable(0x4CaeA92785e623BC56b011c6f141bb39f8baE94d);
